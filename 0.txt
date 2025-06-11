@@ -1,0 +1,104 @@
+wimax_flutter/
+├── lib/
+│   ├── main.dart
+│   │
+│   ├── core/
+│   │   ├── shell_executor.dart
+│   │   ├── tool_manager.dart
+│   │   ├── theme_manager.dart
+│   │   └── constants.dart
+│   │
+│   ├── modules/
+│   │   ├── recon.dart
+│   │   ├── arp_spoof.dart
+│   │   ├── packet_sniffer.dart
+│   │   ├── handshake_cracker.dart
+│   │   ├── wps_attack.dart
+│   │   ├── reporting.dart
+│   │   ├── dns_spoof.dart
+│   │   ├── session_hijack.dart
+│   │   └── wordlist_module.dart
+│   │
+│   ├── ui/
+│   │   ├── home_screen.dart
+│   │   ├── network_scan_screen.dart
+│   │   ├── arp_spoof_screen.dart
+│   │   ├── packet_capture_screen.dart ← تم إرساله سابقًا
+│   │   ├── analysis_screen.dart ← تم إرساله سابقًا
+│   │   ├── wpa_crack_screen.dart ← تم إرساله سابقًا
+│   │   ├── wps_attack_screen.dart ← تم إرساله سابقًا
+│   │   ├── setup_tools_screen.dart ← تم إرساله سابقًا
+│   │   ├── report_screen.dart ← تم إرساله سابقًا
+│   │   ├── profile_screen.dart ← تم إرساله سابقًا
+│   │   ├── login_screen.dart ← تم إرساله سابقًا
+│   │   ├── dashboard_screen.dart ← تم إرساله سابقًا
+│   │   ├── session_hijack_screen.dart ← تم إرساله سابقًا
+│   │   └── wordlist_picker_screen.dart ← تم إرساله سابقًا
+│   │
+│   ├── auth/
+│   │   ├── user.dart ← لم يُرسل بعد (سأرسله الآن)
+│   │
+│   └── utils/
+│       └── file_picker.dart ← لم يُرسل بعد (سأرسله الآن)
+│
+├── android/  ← سيتم إرسال ملفات Java كاملة في رسالة لاحقة إن أردت
+│   └── app/src/main/java/com.wimax_flutter/
+│       ├── MainActivity.java
+│       ├── Airodump.java
+│       ├── ReaverFragment.java
+│       ├── Shell.java
+│       ├── FileExplorerDialog.java
+│       ├── SettingsFragment.java
+│       ├── CrackFragment.java
+│       ├── StopReceiver.java
+│       └── ... باقي الملفات (سيتم إرسالها لاحقًا)
+└── assets/
+    └── tools/
+        ├── tcpdump
+        ├── aircrack-ng
+        ├── reaver
+        ├── arpspoof
+        ├── airodump-ng
+        ├── aireplay-ng
+        ├── mdk3
+        ├── packetforge-ng
+        ├── wesside-ng
+        ├── besside-ng
+        └── wpaclean
+└── pubspec.yaml ← سيتم إرساله في النهاية مع التعليمات الكاملة
+├── README.md
+├── INSTALLATION.md
+└── LICENSE    وباقي ملفات الجاف التي لم ترسل  ارسلها كلها الان
+
+
+
+
+1. Termux + APT
+
+في Termux يمكنك تنزيل الأدوات باستخدام الأوامر التالية:
+
+pkg install tcpdump....
+pkg install dsniff0000000000
+pkg install aircrack-ng0000000
+pkg install reaver000000
+
+sudo apt install kali-tools-802-11
+ 
+ 
+
+
+ثم ابحث عن الملفات في:
+
+
+
+/data/data/com.termux/files/usr/bin/
+
+
+
+
+
+
+
+
+
+
