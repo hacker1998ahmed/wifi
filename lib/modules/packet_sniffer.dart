@@ -1,0 +1,19 @@
+import 'dart:io';
+import 'package:wimax_flutter/core/shell_executor.dart';
+
+class PacketSnifferModule {
+  final ShellExecutor _shell = ShellExecutor();
+
+  Future<void> startPacketCapture({required String interface, required String savePath}) async {
+    await _shell.executeRootCommand("tcpdump -i $interface -w $savePath");
+  }
+
+  Future<void> stopPacketCapture() async {
+    await _shell.executeRootCommand("pkill tcpdump");
+  }
+
+  Future<bool> isTcpdumpAvailable() async {
+    final output = await _shell.executeCommand("which tcpdump");
+    return output.isNotEmpty;
+  }
+}
