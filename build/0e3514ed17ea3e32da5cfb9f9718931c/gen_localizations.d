@@ -1,0 +1,1 @@
+ C:\\Users\\MR_X\\Downloads\\wimax\\lib/l10n\\app_localizations_ar.dart C:\\Users\\MR_X\\Downloads\\wimax\\lib/l10n\\app_localizations_en.dart C:\\Users\\MR_X\\Downloads\\wimax\\lib/l10n\\app_localizations.dart:  C:\\Users\\MR_X\\Downloads\\wimax\\l10n.yaml C:\\Users\\MR_X\\Downloads\\wimax\\lib/l10n\\app_ar.arb C:\\Users\\MR_X\\Downloads\\wimax\\lib/l10n\\app_en.arb
