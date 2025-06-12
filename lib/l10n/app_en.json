@@ -1,0 +1,16 @@
+{
+  "appName": "WiMax Security",
+  "login": "Login",
+  "logout": "Logout",
+  "darkMode": "Dark Mode",
+  "lightMode": "Light Mode",
+  "language": "Language",
+  "wifiScan": "Wi-Fi Scan",
+  "arpSpoofing": "ARP Spoofing",
+  "packetCapture": "Packet Capture",
+  "wpaCrack": "WPA Crack",
+  "wpsAttack": "WPS Attack",
+  "sessionHijacking": "Session Hijacking",
+  "settings": "Settings",
+  "toolsManagement": "Tools Management"
+}
