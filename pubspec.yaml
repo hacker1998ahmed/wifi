@@ -1,11 +1,9 @@
 name: wimax_flutter
 description: تطبيق اختبار أمان الشبكات اللاسلكية باستخدام Flutter/Dart
-
 version: 1.0.0+1
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
-  flutter: "3.16.x"
 
 dependencies:
   flutter:
@@ -28,8 +26,6 @@ dependencies:
   flutter_local_notifications: ^14.3.0
   tflite: ^1.1.2
   file_picker: ^5.0.1
-  flutter_gen_l10n: ^0.26.0+1
-  firebase_analytics: ^10.4.3
 
 dev_dependencies:
   flutter_test:
